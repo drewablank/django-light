@@ -10,6 +10,7 @@ from django.conf import settings
 settings.configure(
     DEBUG = True,
     SECRET_KEY = 'yourrandomsecretkey',
+    ALLOWED_HOSTS= '0.0.0.0',
     ROOT_URLCONF = __name__,
     MIDDLEWARE_CLASSES = (),
 )
