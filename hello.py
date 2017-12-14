@@ -8,7 +8,7 @@ Would normally go in project_app/settings.py
 from django.conf import settings
 
 settings.configure(
-    DEBUG = True,
+    #DEBUG = True,
     SECRET_KEY = 'yourrandomsecretkey',
     ALLOWED_HOSTS= '*',
     ROOT_URLCONF = __name__,
