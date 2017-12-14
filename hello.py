@@ -8,9 +8,9 @@ Would normally go in project_app/settings.py
 from django.conf import settings
 
 settings.configure(
-    #DEBUG = True,
+    DEBUG = True,
     SECRET_KEY = 'yourrandomsecretkey',
-    ALLOWED_HOSTS= '*',
+    #ALLOWED_HOSTS= '*',
     ROOT_URLCONF = __name__,
     MIDDLEWARE_CLASSES = (),
 )
